@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "@fontsource-variable/inclusive-sans";
+@import "@fontsource-variable/jetbrains-mono";
+
+@theme inline {
+  --font-sans: var(--font-inclusive-sans);
+  --font-mono: var(--font-jetbrains-mono);
+}
+
+:root {
+  --font-inclusive-sans: "Inclusive Sans Variable", sans-serif;
+  --font-jetbrains-mono: "JetBrains Mono Variable", monospace;
+}

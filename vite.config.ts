@@ -9,9 +9,6 @@ export default defineConfig({
     react(),
     blogger({
       proxyBlog: 'https://toolsmodweeb.blogspot.com',
-      modules: ['src/main.tsx'],
-      styles: ['src/index.css'],
-      template: 'src/template.xml',
     }),
   ],
 });
